@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin :0;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 300px;
+}
+
+.text{
+    color: white;
+}
+
+.circle{
+    height: 100px;
+    width:100px;
+    border-radius: 100%;
+    background-color: rgb(213, 36, 36);
+}
+
+.text{
+    position: relative;
+    top: -107px;
+    left: 41px;
+}
+
+.inp1{
+    background-color: black;
+    color: grey;
+    border: solid 1px grey;
+    padding-right: 25px;
+    padding: 20px;
+    margin-right:25px;
+}
+
+.inp2{
+    background-color: black;
+    color: grey;
+    padding-right: 25px;
+    padding: 20px;
+    margin-right:25px;
+    border: solid 1px grey;
+}
+
+.inp3{
+    background-color: black;
+    color: grey;
+    padding-right: 25px;
+    padding: 20px;
+    margin-right: 25px;
+    border: solid 1px grey;
+}
+
+.inp4{
+    margin-top: 40px;
+    background-color: black;
+    color: grey;
+    padding: 20px;
+    padding-right: 580px;
+    margin-right: 25px;
+    border: solid 1px grey;
+}
+
+.inp5{
+    margin-top: 40px;
+    background-color: black;
+    color: grey;
+    padding: 40px;
+    padding-right: 535px;
+    margin-right: 35px;
+    border: dashed 1px grey;
+}
+
+.button{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 20px;
+    
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border: solid 1px grey;
+    margin-left:690px;
+}
+
+.select{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: solid 1px grey;
+}

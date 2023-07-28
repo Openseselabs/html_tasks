@@ -1,0 +1,90 @@
+body{
+   padding:0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+#main{
+    margin-top: 180px;
+}
+.sample{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: orange;
+    position: absolute;
+    top: 200px;
+    left: 19rem;
+}
+.text{
+    font-weight: bolder;
+    position: absolute;
+    top: 200px;
+    left: 20rem;
+
+}
+#box1{
+    height: 500px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    margin: 10px;
+}
+#box2{
+    height: 500px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    margin: 10px;
+}
+#box3{
+    height: 500px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    margin: 10px;
+}
+#box4{
+    height: 500px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    margin: 10px;
+}
+.sub{
+    display: flex;
+     margin-top: 197px;
+    position: absolute;
+    padding-left: 300px;
+    align-items: center;
+}
+
+.desg1{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 100%;
+}
+.desg2{
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 100%;
+}
+.desg3{
+    height: 20px;
+    width: 20px;
+    background-color:blue;
+    border-radius: 100%;
+}
+.desg4{
+    height: 20px;
+    width: 20px;
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+
+hr{
+    height: 500px;
+    margin-right: 60px;
+}
