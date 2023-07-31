@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.col {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
+
+table {
+  border: none;
+  height: 100vh;
+  text-align: center;
+  padding: 0px;
+}
+table td {
+  margin: 0px;
+  font-size: 1rem;
+  width: 10%;
+  height: 50vh;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+table .circle {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(64, 185, 229);
+  border-radius: 100%;
+  position: relative;
+  top: 11px;
+  left: 200px;
+}
+table .txt {
+  position: relative;
+  text-align: left;
+  left: 237px;
+  top: -52px;
+}
+table h4 {
+  padding: 5px;
+}
+table .font {
+  font-size: 29px;
+}
+table span {
+  position: relative;
+  top: -140px;
+  left: -137px;
+  text-decoration: underline;
+  color: rgb(176, 173, 173);
+}
+table h2 {
+  padding-bottom: 80px;
+  font-size: 36px;
+}
+table p {
+  color: #cfcbcb;
+}
+table .non:hover {
+  background-color: black;
+  color: white;
+}
+table .non:hover .black {
+  visibility: hidden;
+}
+
+.non:hover .btn p {
+  visibility: visible;
+  position: relative;
+  left: -184px;
+  top: 95px;
+  text-decoration: underline;
+}
+.non:hover .btn button {
+  visibility: visible;
+  position: relative;
+  left: 125px;
+  top: 65px;
+  color: orangered;
+  background-color: black;
+  border: none;
+  font-size: 2rem;
+}
+
+.btn, button {
+  visibility: hidden;
+}/*# sourceMappingURL=index.css.map */
