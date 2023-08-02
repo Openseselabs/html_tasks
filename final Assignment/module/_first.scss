@@ -1,0 +1,90 @@
+#first{
+    background-color: #232526;
+    position: relative;
+    // margin-left: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+
+        transform: rotate(-35deg);
+        height: 121px;
+        width: 121px;
+    }
+
+    li {
+        list-style: none;
+        color: white;
+        text-align: right;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: proxima_nova_reg;
+    }
+
+    .li-fifth{
+        color: orangered;
+    }
+}
+
+.header{
+    font-size: 4rem + 4rem;
+    color: white;
+    font-family: 'bebas neue';
+    margin-left: 30px;
+    .txt-two{
+        position: relative;
+        top: -120px;
+    }
+
+   
+}
+
+.img-two img{
+    position: absolute;
+    top:297px;
+    left: 233px;
+    height: 50px;
+    width: 50px;
+    line-height: 10px;
+}
+.sub>p{
+    position: relative;
+    top: -88px;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    margin-left: 30px;
+    font-family: proxima_nova_reg;
+}
+
+.para{
+    margin-bottom: 15px;
+}
+
+.blue{
+    height: 30px;
+                width: 18px;
+                border-radius: 1rem 0rem 0rem 1rem;
+                background-color: rgb(19, 136, 172);
+                position: absolute;
+                top: 432px;
+                right: 0px;
+}
+.img-3{
+    position: absolute;
+    top: 927px;
+    left: 110px;
+}
+.line{
+    padding-top:70px;
+}
+
+.round{
+    height: 100px;
+    width: 100px;
+    background-color: #faaf41;
+    border-radius: 100%;
+}

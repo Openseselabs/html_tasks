@@ -1,0 +1,46 @@
+
+#fourth{
+    margin-top: 60px;
+    
+     .numbers{
+        margin-left: 104px;
+     }
+    .head{
+     font-size: 100px;
+    //  font-style: ;
+    font-family: Bebas Neue;
+    }
+    h2{
+        padding-bottom: 100px;
+        font-family: proxima_nova_reg;
+         width: 200px;
+    }
+
+    .circle-fourth{
+        height: 60px;
+        width: 60px;
+        background-color: #3787C8;
+        border-radius: 100%;
+        position: relative;
+        left: -68px;
+        bottom: 52px;
+    }
+
+    .square{
+        height: 60px;
+        width: 60px;
+        border: 100%;
+        background-color: #DF4E31;
+        position: relative;
+        top: -38px;
+        left: 150px;
+    }
+    hr{
+        width: 20%;
+        rotate: -45deg;
+        position: relative;
+        top: -182px;
+        color: white;
+        left: 150px;
+      }
+    }

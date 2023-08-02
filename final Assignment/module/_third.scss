@@ -1,0 +1,67 @@
+
+#third{
+    margin-bottom: 10px;
+    background-color:#EBF0F0;
+
+    .third-head{
+        font-size: 36px;
+        font-family: proxima_nova_bold;
+        font-weight: 700;
+    }
+    .circle{
+        height: 100px;
+        width: 100px;
+        background-color: #DF4E31;
+        border-radius: 100%;
+        left: -2rem;
+        position: relative;
+    }
+
+    .third-content{
+        position: relative;
+        top: -76px;
+        left: -1px;
+        margin-left: 21px;
+
+    }
+
+    .row{
+        display: flex;
+
+        .col{
+            position: relative;
+            width: 50%;
+            height: 16.8rem;
+            border: 1px solid rgb(180, 178, 178);
+            padding: 3rem 2rem;
+        }
+        .linear-box-with-line{
+                position: absolute;
+                width: 1.5rem;
+                height: 1.5rem;
+                top: 5.5rem;
+                background: rgb(55,135,200);
+                background: linear-gradient(120deg, rgba(55,135,200,1) 0%, rgba(225,75,50,1) 100%);
+            }
+            .linear-box-with-line::after{
+                position: absolute;
+                content: "";
+                height: 60%;
+                border-left: 1px solid #fff;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(135deg);
+            }
+
+            h2{
+                font-family: proxima_nova_reg;
+                position: absolute;
+                top: 140px;
+            }
+            span{
+                color: rgb(192, 187, 187);
+                text-decoration: underline;
+            }
+    }    
+  
+}

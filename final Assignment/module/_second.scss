@@ -1,0 +1,60 @@
+
+
+#section-2{
+    background-color:#EBF0F0;
+    padding-top: 100px;
+
+    .sub-circle{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        position: relative;
+        left: -2rem;
+        background-color: #FAAF41;
+    }
+
+    .content{
+        position: relative;
+        top: -80px;
+        left: 24px;
+        width: 332px;
+       
+    }
+
+    h4{
+        margin-bottom: 17px;
+    }
+
+    .head{
+        font-size: 36px;
+        font-family: proxima_nova_bold;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    span{
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px;
+    }
+
+    p{
+        font-family: proxima_nova_reg;
+        margin-bottom: 70px;
+    }
+
+    .row{
+        position: relative;
+        top: -28px;
+        left: 160px;
+        width: 60px;
+    }
+    img{
+        position: relative;
+        left: 200px;
+        top: -55px;
+    }
+}
+hr{
+    position: relative;
+    top: -30px;
+}
